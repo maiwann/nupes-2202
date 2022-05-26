@@ -69,7 +69,7 @@ const config = {
           src: 'img/nupes-logo.svg',
         },
         items: [{
-          to: 'index',
+          to: '/',
           position: 'left',
           label: 'Accueil',
         },
