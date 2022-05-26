@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1476],{8163:function(e){e.exports=JSON.parse('{"label":"hola","permalink":"/nupes2202/blog/tags/hola","allTagsPath":"/nupes2202/blog/tags","count":1}')}}]);
