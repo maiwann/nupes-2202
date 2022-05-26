@@ -10,7 +10,7 @@ const config = {
   tagline: 'Élections Législatives 2022',
   url: 'https://maiwann.github.io',
   // https://www.nupes2202.bzh/
-  baseUrl: '/nupes2202/',
+  baseUrl: '/nupes-2202/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
