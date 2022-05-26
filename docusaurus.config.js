@@ -6,18 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Julia Mignacca',
+  title: 'Bruno Ricard & Guylaine Frin',
   tagline: 'Élections Législatives 2022',
-  url: 'https://www.juliamignacca.fr/',
-  baseUrl: '/',
+  url: 'https://maiwann.github.io',
+  // https://www.nupes2202.bzh/
+  baseUrl: '/nupes2202/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'arthurlenoir',
-  projectName: 'nupes-mignacca',
+  organizationName: 'maiwann',
+  projectName: 'nupes2202',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -26,7 +27,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr-FR',
-    locales: ['fr-FR', 'oc'],
+    locales: ['fr-FR'],
   },
   plugins: ['docusaurus-plugin-matomo', 'docusaurus-plugin-sass'],
   scripts: [{
@@ -62,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Julia Mignacca',
+        title: 'NUPES',
         logo: {
           alt: 'NUPES Logo',
           src: 'img/nupes-logo.svg',
@@ -71,21 +72,22 @@ const config = {
           to: 'index',
           position: 'left',
           label: 'Accueil',
-        }, {
-          to: 'notre-programme',
-          position: 'left',
-          label: 'Programme',
-        }, 
-        {
-          to: 'procuration',
-          position: 'left',
-          label: 'Procuration',
         },
         {
           to: 'agenda',
           position: 'left',
-          label: 'Nous Rencontrer',
+          label: 'Nous rencontrer',
         },
+        {
+          to: 'notre-programme',
+          position: 'left',
+          label: 'Notre programme',
+        },
+        /*{
+          to: 'procuration',
+          position: 'left',
+          label: 'Procuration',
+        },*/
         /*{
           to: 'notre-candidate',
           position: 'left',
@@ -105,31 +107,19 @@ const config = {
           {
             to: 'notre-candidate',
             position: 'left',
-            label: 'Présentation',
+            label: 'Nos candidats',
           },*/
           {
-            href: 'https://twitter.com/JuliaMignacca',
+            href: 'https://twitter.com/NUPES_2202',
             label: 'Twitter',
             position: 'right',
             id: 'twitter'
           },
           {
-            href: 'https://www.facebook.com/JuliaMignacca',
+            href: 'https://www.facebook.com/NUPES-Circonscription-2202-Bruno-Ricard-et-Guylaine-Frin-112655671442144/',
             label: 'Facebook',
             position: 'right',
             id: 'facebook'
-          },
-          {
-            href: 'https://www.instagram.com/julia.mignacca/',
-            label: 'Instagram',
-            position: 'right',
-            id: 'instagram'
-          },
-          {
-            href: 'https://t.me/juliamignacca',
-            label: 'Telegram',
-            position: 'right',
-            id: 'telegram'
           },
         ],
       },
@@ -142,7 +132,7 @@ const config = {
       },
       matomo: {
         matomoUrl: 'https://matomo.noussommes.org/',
-        siteId: '2',
+        siteId: '3',
         phpLoader: 'matomo.php',
         jsLoader: 'matomo.js',
       },

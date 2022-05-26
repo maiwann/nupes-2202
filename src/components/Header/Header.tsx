@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       <source srcSet={mignaccaPng} type="image/png" />
       <img
         src={mignaccaPng}
-        alt="Julia Mignacca"
+        alt="NUPES"
         className={styles.headerImage}
       />
     </picture>

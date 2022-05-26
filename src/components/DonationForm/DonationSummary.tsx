@@ -75,9 +75,9 @@ const DonationSummary: React.FC<Props> = ({
         <div>soit {renderMoney(selectedAmount)} après réduction d'impôt</div>
       </Button>
       <Text className={styles.disclaimer}>
-        Les dons sont destinés à l’AFE Julia Mignacca 2022, déclarée à la
+        Les dons sont destinés à l’AFE pour la NUPES 2022, déclarée à la
         préfecture de l'Hérault, seule habilitée à recevoir les dons en faveur
-        du candidate Julia Mignacca, dans le cadre de la campagne pour
+        du candidate pour la NUPES, dans le cadre de la campagne pour
         l’élection législatives de 2022.
       </Text>
     </div>

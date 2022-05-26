@@ -48,7 +48,7 @@ const CompareProgram: React.FC = () => {
       <div className={styles.ProgramHeader}>
         <div className={styles.ColProg}></div>
         <div className={styles.ColCandidate}>
-          <SubTitle>Julia Mignacca</SubTitle>
+          <SubTitle>NUPES</SubTitle>
         </div>
         <div className={clsx(styles.ColCandidate, styles.OtherCandidate)}>
           <SubTitle>Macron</SubTitle>
