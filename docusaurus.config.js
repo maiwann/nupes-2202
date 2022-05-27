@@ -88,11 +88,11 @@ const config = {
           position: 'left',
           label: 'Procuration',
         },*/
-        /*{
+        {
           to: 'notre-candidate',
           position: 'left',
-          label: 'Présentation',
-        },*/
+          label: 'Nos candidats',
+        },
           /*{
             type: 'doc',
             docId: 'index',
