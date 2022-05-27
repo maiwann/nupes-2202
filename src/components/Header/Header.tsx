@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   const mignaccaWebP = useBaseUrl("/img/julia-mignacca.webp");
   const mignaccaPng = useBaseUrl("/img/julia-mignacca.png");
   return (
-    <picture
+    <div class="image_presentation"
       style={{ backgroundImage: `url("${backgroundImage}")` }}
       className={styles.headerContainer}
     >
@@ -18,7 +18,7 @@ const Header: React.FC = () => {
         alt="NUPES"
         className={styles.headerImage}
       />
-    </picture>
+    </div>
   );
 };
 
