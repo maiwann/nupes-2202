@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.image_presentation {
+  margin: 0 auto 2em;
+  max-width: 80%;
+}
