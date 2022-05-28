@@ -76,6 +76,12 @@ const CompareProgram: React.FC = () => {
         sourceLink="https://www.ifop.com/wp-content/uploads/2022/02/118876-Rapport.pdf"
       />
       <ProgramLine
+        title="Reconstruire l’hôpital public"
+        subTitle="rouvrir des services d’urgences et mettre fin à la tarification à l’acte"
+        percentage={81}
+        sourceLink="https://www.lefigaro.fr/sciences/les-francais-et-les-soignants-sont-inquiets-pour-l-avenir-de-l-hopital-20220516"
+      />
+      <ProgramLine
         title="Le plein à 1,40 € le litre"
         subTitle="et bloquer le prix des produits de premières nécessité"
         percentage={88}
@@ -88,26 +94,20 @@ const CompareProgram: React.FC = () => {
         sourceLink="https://www.reussir.fr/plus-de-4-francais-sur-5-seraient-favorables-linterdiction-des-pesticides-les-plus-dangereux"
       />
       <ProgramLine
-        title="Instaurer un Référendum d’Initiative Citoyenne"
-        subTitle="reconnaître le vote blanc et instaurer une 6e République"
-        percentage={73}
-        sourceLink="https://www.ifop.com/wp-content/uploads/2022/02/118859_PPT_RIC_2022.02.07.pdf"
-      />
-      <ProgramLine
         title="Rouvrir les lignes ferroviaires du quotidien"
         subTitle="avec un plan national de soutien massif au développement des transports collectifs"
         percentage={80}
         sourceLink="https://reseauactionclimat.org/regionales-le-train-maillon-essentiel-de-la-mobilite-locale/"
       />
       <ProgramLine
-        title="Reconstruire l’hôpital public"
-        subTitle="rouvrir des services d’urgences et mettre fin à la tarification à l’acte"
-        percentage={81}
-        sourceLink="https://www.lefigaro.fr/sciences/les-francais-et-les-soignants-sont-inquiets-pour-l-avenir-de-l-hopital-20220516"
-      />
-      <ProgramLine
         title="Créer une allocation d’autonomie pour les jeunes"
         subTitle="fixée au-dessus du seuil de pauvreté soit 1063 euros / mois"
+      />
+      <ProgramLine
+        title="Instaurer un Référendum d’Initiative Citoyenne"
+        subTitle="reconnaître le vote blanc et instaurer une 6e République"
+        percentage={73}
+        sourceLink="https://www.ifop.com/wp-content/uploads/2022/02/118859_PPT_RIC_2022.02.07.pdf"
       />
     </>
   );
