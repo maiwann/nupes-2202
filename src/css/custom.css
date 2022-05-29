@@ -118,3 +118,7 @@ ul {
     display: none;
   }
 }
+
+.candidat img {
+  height: 300px
+}
