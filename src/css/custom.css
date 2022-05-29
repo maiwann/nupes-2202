@@ -118,12 +118,3 @@ ul {
     display: none;
   }
 }
-
-.candidat {
-  display: flex;
-}
-
-
-.candidat img {
-  height: 300px;
-}
