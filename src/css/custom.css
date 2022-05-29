@@ -119,6 +119,11 @@ ul {
   }
 }
 
+.candidat {
+  display: flex;
+}
+
+
 .candidat img {
-  height: 300px
+  height: 300px;
 }
