@@ -8,9 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Bruno Ricard & Guylaine Frin',
   tagline: 'Élections Législatives 2022',
-  url: 'https://maiwann.github.io',
-  // https://www.nupes2202.bzh/
-  baseUrl: '/nupes-2202/',
+  url: 'https://www.nupes2202.bzh/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
