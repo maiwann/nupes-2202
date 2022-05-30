@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7329],{7975:function(e){e.exports=JSON.parse('{"label":"facebook","permalink":"/nupes-2202/blog/tags/facebook","allTagsPath":"/nupes-2202/blog/tags","count":1}')}}]);
