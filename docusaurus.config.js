@@ -9,7 +9,7 @@ const config = {
   title: 'Bruno Ricard & Guylaine Frin',
   tagline: 'Élections Législatives 2022',
   url: 'https://www.nupes2202.bzh/',
-  baseUrl: '/',
+  baseUrl: '/nupes-2202/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
