@@ -92,6 +92,11 @@ const config = {
           position: 'left',
           label: 'Nos candidats',
         },
+        {
+          to: 'falc',
+          position: 'left',
+          label: 'FALC',
+        },
           /*{
             type: 'doc',
             docId: 'index',
